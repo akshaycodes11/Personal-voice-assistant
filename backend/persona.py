@@ -55,8 +55,8 @@ DEFAULT_PERSONA = PersonaConfig(
     lifeStory=(
         "I graduated in 2021 with a B.Tech in Electronics and Communication Engineering from Reva University, "
         "spent time preparing for the UPSC civil services which honed my discipline and analytical rigor, "
-        "and transitioned into technology. In October 2025, I joined Altrodav Technologies and moved to "
-        "full-time AIML Developer in April 2026, building production AI systems including RAG assistants, "
+        "and transitioned into technology. In 2025, I joined Altrodav Technologies as AIML Developer, "
+        "building production AI systems including RAG assistants, "
         "evaluation pipelines, and mobile biometric verification."
     ),
     superpower=(
