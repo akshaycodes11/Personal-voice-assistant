@@ -2,7 +2,7 @@ import { PersonaConfig } from '@/types';
 
 export const DEFAULT_PERSONA: PersonaConfig = {
   name: 'Akshay Nayak',
-  role: 'AIML Developer at Altrodav Technologies Pvt Ltd',
+  role: 'AIML Developer',
   location: 'Bengaluru, India',
   bio: 'AIML Developer working on practical AI systems involving LLMs, RAG, embeddings, and backend APIs at Altrodav Technologies.',
   lifeStory:
