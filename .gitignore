@@ -13,7 +13,6 @@ ENV/
 .pnp.js
 
 # build output
-dist/
 dist-ssr/
 *.local
 
