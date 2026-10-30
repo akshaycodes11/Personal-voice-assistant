@@ -69,7 +69,7 @@ export default function App() {
 
             </div>
             <p className="text-[11px] text-slate-400 truncate max-w-[200px] sm:max-w-xs">
-              {persona.role}
+              AIML Developer
             </p>
           </div>
         </div>
