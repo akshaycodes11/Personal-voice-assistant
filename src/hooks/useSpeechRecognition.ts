@@ -20,6 +20,11 @@ interface UseSpeechRecognitionOptions {
   silenceDelayMs?: number;
 }
 
+const isMobileDevice = () => {
+  if (typeof navigator === 'undefined') return false;
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+};
+
 export function useSpeechRecognition({
   onResult,
   onSilenceTimeout,
@@ -119,7 +124,9 @@ export function useSpeechRecognition({
 
     setIsSupported(true);
     const recognition = new SpeechRecognition();
-    recognition.continuous = continuous;
+    // On mobile devices, continuous=false ensures native speech services emit results reliably
+    const isMobile = isMobileDevice();
+    recognition.continuous = isMobile ? false : continuous;
     recognition.interimResults = true;
     recognition.lang = 'en-US';
     recognition.maxAlternatives = 1;
@@ -139,32 +146,32 @@ export function useSpeechRecognition({
       let currentInterim = '';
       let currentFinal = '';
 
-      for (let i = event.resultIndex; i < event.results.length; ++i) {
+      // On mobile or single-shot, always read all results from index 0 to avoid index offset resets
+      for (let i = 0; i < event.results.length; ++i) {
         const item = event.results[i];
-        const text = item[0]?.transcript || '';
+        const transcriptText = item[0]?.transcript || '';
         if (item.isFinal) {
-          currentFinal += text + ' ';
+          currentFinal += transcriptText + ' ';
         } else {
-          currentInterim += text;
+          currentInterim += transcriptText;
         }
       }
 
-      if (currentFinal) {
-        transcriptBufferRef.current = (
-          transcriptBufferRef.current + ' ' + currentFinal
-        ).trim();
-        setTranscript(transcriptBufferRef.current);
+      const cleanFinal = currentFinal.trim();
+      const cleanInterim = currentInterim.trim();
+
+      if (cleanFinal) {
+        transcriptBufferRef.current = cleanFinal;
+        setTranscript(cleanFinal);
         if (onResultRef.current) {
-          onResultRef.current(transcriptBufferRef.current);
+          onResultRef.current(cleanFinal);
         }
       }
 
-      interimBufferRef.current = currentInterim;
-      setInterimTranscript(currentInterim);
+      interimBufferRef.current = cleanInterim;
+      setInterimTranscript(cleanInterim);
 
-      const combined = (
-        transcriptBufferRef.current + (currentInterim ? ' ' + currentInterim : '')
-      ).trim();
+      const combined = (cleanFinal || cleanInterim || transcriptBufferRef.current).trim();
 
       // Reset and re-arm silence timer whenever speech is detected
       if (silenceTimerRef.current) {
@@ -173,9 +180,10 @@ export function useSpeechRecognition({
       }
 
       if (combined) {
+        const delay = (isMobileDevice() && cleanFinal) ? 800 : silenceDelayMs;
         silenceTimerRef.current = setTimeout(() => {
           triggerSpeechFinalized();
-        }, silenceDelayMs);
+        }, delay);
       }
     };
 

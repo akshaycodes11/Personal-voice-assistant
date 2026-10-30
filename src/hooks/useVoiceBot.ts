@@ -253,16 +253,9 @@ export function useVoiceBot() {
 
   handleUserMessageRef.current = sendMessage;
 
-  const startListening = useCallback(async () => {
+  const startListening = useCallback(() => {
     stopSpeakingInternal();
     setVoiceState('listening');
-    if (typeof navigator !== 'undefined' && navigator.mediaDevices?.getUserMedia) {
-      try {
-        await navigator.mediaDevices.getUserMedia({ audio: true });
-      } catch (err) {
-        console.warn('Microphone permission check:', err);
-      }
-    }
     startListeningInternal();
   }, [startListeningInternal, stopSpeakingInternal]);
 
