@@ -1,0 +1,202 @@
+{
+  "name": "Akshay Nayak",
+  "current_role": "AIML Developer",
+  "company": "Altrodav Technologies Pvt Ltd",
+  "experience_period": "Oct 2025 – Present",
+  "location": "Bengaluru, India",
+  "education": {
+    "degree": "B.Tech, Electronics and Communication Engineering",
+    "institution": "Reva University",
+    "period": "2017–2021",
+    "cgpa": "7.91/10"
+  },
+  "professional_summary": "I am an AIML Developer working on practical AI systems involving LLMs, Retrieval-Augmented Generation, machine learning, embeddings and backend APIs. My experience includes AI-powered learning and assessment, knowledge assistants, Android facial verification and AI-assisted talent sourcing.",
+  "skills": {
+    "programming": [
+      "Python",
+      "JavaScript (ES6+)",
+      "Java"
+    ],
+    "ai_ml": [
+      "TensorFlow",
+      "Scikit-learn",
+      "LLMs",
+      "RAG",
+      "Sentence Transformers",
+      "NumPy",
+      "Pandas",
+      "Vector Embeddings",
+      "Ollama"
+    ],
+    "backend": [
+      "FastAPI",
+      "Spring Boot",
+      "JDBC",
+      "REST APIs"
+    ],
+    "databases": [
+      "MySQL",
+      "FAISS",
+      "Milvus"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "SDLC",
+      "JUnit Testing",
+      "Agile"
+    ],
+    "project_technologies": [
+      "Groq",
+      "Google Gemini API",
+      "TensorFlow Lite",
+      "ML Kit",
+      "Apify",
+      "GitHub API",
+      "Hugging Face API"
+    ]
+  },
+  "career_journey": [
+    "Completed B.Tech in Electronics and Communication Engineering at Reva University in 2021.",
+    "Joined Altrodav Technologies Pvt Ltd in October 2025 as an AIML Developer, as listed in the resume.",
+    "Worked across PlaceMux AI products and MeetMux AI-powered Android features."
+  ],
+  "projects": [
+    {
+      "name": "PlaceMux – AI-Powered Learning & Assessment Platform",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Ollama LLMs"
+      ],
+      "contribution": "Designed and developed an AI evaluation system to assess candidate tasks and produce structured scores, strengths, weaknesses, improvement suggestions and skill assessments.",
+      "implementation": [
+        "Prompt-engineered reasoning pipeline",
+        "Confidence scoring",
+        "Automatic re-evaluation",
+        "Secure REST APIs"
+      ],
+      "result": "Resume states that evaluation time was reduced from manual review to approximately 1–2 minutes."
+    },
+    {
+      "name": "PlaceMux – AI-Powered Support & Knowledge Chat Assistant",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Sentence Transformers",
+        "Groq LLMs"
+      ],
+      "contribution": "Architected and implemented a production-ready RAG assistant that provides grounded, context-aware answers from technical knowledge bases.",
+      "implementation": [
+        "Conversational query rewriting",
+        "Metadata audience-isolation filters",
+        "Dynamic prompt synthesis",
+        "Defense-in-depth guardrails",
+        "Semantic similarity thresholding",
+        "CI evaluation using Hit@K and MRR"
+      ]
+    },
+    {
+      "name": "MeetMux – AI-Powered Social Networking Android Application",
+      "stack": [
+        "Android",
+        "TensorFlow Lite",
+        "ML Kit"
+      ],
+      "contribution": "Developed AI-powered facial verification and real-time face detection features.",
+      "implementation": [
+        "Facial embedding generation",
+        "Selfie-based identity verification",
+        "Liveness detection",
+        "Facial parameter checks",
+        "TensorFlow Lite facial recognition integrated with ML Kit face detection"
+      ]
+    },
+    {
+      "name": "AI Talent Hunt Platform",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Sentence Transformers",
+        "FAISS",
+        "Google Gemini API",
+        "Apify",
+        "GitHub API",
+        "Hugging Face API"
+      ],
+      "contribution": "Developed an AI-powered candidate sourcing platform for candidate discovery, semantic search and intelligent ranking.",
+      "implementation": [
+        "Embedding-based candidate matching",
+        "FAISS similarity search",
+        "Gemini recruiter recommendations",
+        "Skills-gap analysis"
+      ]
+    }
+  ],
+  "certifications": [
+    "Software Engineering Job Simulation – JPMorgan Chase & Co. (Forage), Sep 2025",
+    "Claude Code 101 – Anthropic Education, Aug 2026",
+    "Database for Developers: Foundations – Oracle, 2025",
+    "Java Programming: Solving Problems with Software – Coursera (Duke University)"
+  ],
+  "publication": "Paper published at ICECIM 2021. Paper title and subject are not specified in the resume.",
+  "languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Telugu"
+  ],
+  "interview_persona": {
+    "tone": "Balanced, professional, confident, approachable and humble.",
+    "target_answer_length": "Approximately 30 seconds, typically 55–75 spoken words.",
+    "strengths": [
+      {
+        "name": "Applied problem-solving",
+        "evidence": "Built AI evaluation, RAG, mobile verification and talent-sourcing workflows."
+      },
+      {
+        "name": "Structured thinking",
+        "evidence": "Worked on confidence scoring, re-evaluation, metadata filtering, semantic thresholds and retrieval metrics."
+      },
+      {
+        "name": "Cross-domain engineering",
+        "evidence": "Experience across Python APIs, LLMs, vector search, databases and Android AI integration."
+      },
+      {
+        "name": "Learning agility",
+        "evidence": "Project experience spans multiple AI and software technologies."
+      }
+    ],
+    "growth_areas_suggested": [
+      "Deepen ML fundamentals and model evaluation.",
+      "Gain broader production engineering experience in deployment architecture, observability, performance and scalability.",
+      "Improve technical communication, documentation and explaining trade-offs."
+    ],
+    "pressure_handling": "Clarify the expected outcome, separate critical work from optional work, prioritize the highest-risk task, break the work into smaller steps, validate incrementally and communicate blockers early.",
+    "learning_approach": "Understand the problem and core concepts, build a small proof of concept, test realistic inputs, learn from failures and integrate gradually.",
+    "teamwork_approach": "Align on goals and responsibilities, communicate progress and blockers, keep interfaces clear, welcome feedback and own assigned work while considering the overall product.",
+    "ambitions": {
+      "career_goal": "Become a well-rounded AI/ML engineer who can take AI features from problem definition through reliable production use.",
+      "areas_to_master": [
+        "LLM application engineering",
+        "RAG and retrieval evaluation",
+        "AI agents and workflow orchestration",
+        "Model evaluation and ML fundamentals",
+        "Secure and efficient AI system design"
+      ],
+      "long_term_aspiration": "Take greater technical ownership of end-to-end AI systems, making them accurate, secure, cost-efficient, scalable and useful to real users.",
+      "motivation": "Solving real problems and turning ideas into useful products; enjoying the learning, experimentation and engineering required to make AI systems reliable."
+    }
+  },
+  "accuracy_rules": [
+    "Never invent project metrics, model accuracy, user counts, team size, budgets, awards or responsibilities.",
+    "Use the resume's 1–2 minute evaluation time exactly; do not add an unsupported percentage.",
+    "The RAG assistant is described as production-ready, but do not infer traffic, uptime or scale.",
+    "Do not claim guardrails eliminate all hallucinations or MeetMux prevents every spoofing attack.",
+    "Do not claim sole ownership of team work.",
+    "Behavioral answers are prepared interview wording and should be reviewed by Akshay to ensure they match his real experience.",
+    "If a question asks for a personal incident not in the profile, ask Akshay for a real example instead of fabricating one."
+  ]
+}
+

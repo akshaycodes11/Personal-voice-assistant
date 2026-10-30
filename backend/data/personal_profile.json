@@ -1,0 +1,122 @@
+{
+  "name": "Akshay Nayak",
+  "current_role": "AIML Developer",
+  "company": "Altrodav Technologies Pvt Ltd",
+  "location": "Bengaluru, India",
+  "education": {
+    "degree": "B.Tech, Electronics and Communication Engineering",
+    "institution": "Reva University",
+    "period": "2017–2021",
+    "cgpa": "7.91/10"
+  },
+  "career": {
+    "graduation": 2021,
+    "journey": [
+      "Graduated with B.Tech in Electronics and Communication Engineering from Reva University",
+      "Prepared for UPSC",
+      "Transitioned into technology",
+      "Joined Altrodav in 2025 as full-time AIML Developer"
+    ]
+  },
+  "strengths": [
+    "Fast learner",
+    "Problem solving",
+    "Technical adaptability",
+    "End-to-end project ownership"
+  ],
+  "growth_areas": [
+    "Deepening ML fundamentals and model evaluation to make stronger model selection decisions",
+    "Gaining broader production engineering experience in observability, performance, and scalability",
+    "Improving technical communication, documentation, and explaining architectural trade-offs"
+  ],
+  "career_goals": {
+    "five_year_vision": "Lead technical direction and architecture for high-impact AI products, bridging cutting-edge ML research with robust, scalable production engineering, and mentoring engineers.",
+    "professional_focus": "Mastering agentic workflows, production retrieval evaluation, and high-performance inference while designing dependable, cost-effective architectures that solve real-world problems."
+  },
+  "coworker_misconception": "People sometimes assume that because I work heavily across backend APIs and model pipelines, I focus only on code. In reality, I care deeply about product usability, structured evaluation, and keeping team interfaces transparent and reliable.",
+  "pushing_limits": "I push my boundaries by clarifying core outcomes, taking on unfamiliar or high-risk challenges first, testing failure modes early, and iterating rapidly on feedback.",
+  "projects": [
+    {
+      "name": "MeetMux",
+      "technologies": [
+        "Kotlin",
+        "TensorFlow Lite",
+        "ML Kit"
+      ],
+      "description": "AI-powered facial verification for an Android application.",
+      "details": "Implemented real-time face detection, facial embedding generation, selfie-based identity verification, and liveness checks to prevent fake accounts and spoofing on mobile."
+    },
+    {
+      "name": "PlaceMux AI Evaluation System",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Ollama",
+        "LLMs"
+      ],
+      "description": "AI-based evaluation of text, documents, images, ZIP projects and GitHub repositories.",
+      "details": "Designed and developed an automated evaluation pipeline assessing candidate assignments to generate structured scores, strengths, weaknesses, and improvement suggestions, reducing evaluation turnaround time to approximately 1–2 minutes."
+    },
+    {
+      "name": "PlaceMux Support & Knowledge Chat Assistant",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Sentence Transformers",
+        "Groq LLMs"
+      ],
+      "description": "Production-ready RAG assistant providing context-aware answers from technical knowledge bases.",
+      "details": "Built conversational query rewriting, audience metadata filtering, dynamic prompt synthesis, semantic similarity thresholds, defense-in-depth guardrails, and CI retrieval evaluation using Hit@K and MRR."
+    },
+    {
+      "name": "AI Talent Hunt",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Sentence Transformers",
+        "FAISS",
+        "Google Gemini API"
+      ],
+      "description": "AI-powered candidate discovery, semantic search, and recruiter recommendations.",
+      "details": "Generated candidate vector embeddings, performed fast similarity search using FAISS, integrated external platforms via GitHub and Hugging Face APIs, and used Gemini for candidate recommendations and skills-gap analysis."
+    }
+  ],
+  "technical_skills": {
+    "programming": [
+      "Python",
+      "JavaScript (ES6+)",
+      "Java"
+    ],
+    "ai_ml": [
+      "TensorFlow",
+      "Scikit-learn",
+      "LLMs",
+      "RAG",
+      "Sentence Transformers",
+      "NumPy",
+      "Pandas",
+      "Vector Embeddings",
+      "Ollama"
+    ],
+    "backend": [
+      "FastAPI",
+      "Spring Boot",
+      "JDBC",
+      "REST APIs"
+    ],
+    "databases_and_vector": [
+      "FAISS",
+      "Milvus",
+      "MySQL"
+    ],
+    "tools_and_platforms": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Groq",
+      "Google Gemini API",
+      "TensorFlow Lite",
+      "ML Kit"
+    ]
+  }
+}

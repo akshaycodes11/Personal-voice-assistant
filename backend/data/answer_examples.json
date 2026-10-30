@@ -1,0 +1,132 @@
+[
+  {
+    "category": "Superpower",
+    "question": "What's your #1 superpower?",
+    "answer": "I would say my biggest strength is my ability to learn quickly and turn unfamiliar concepts into working solutions. When I started exploring AI and machine learning, I didn't limit myself to understanding individual concepts. I started building practical systems, from AI-powered evaluation pipelines to intelligent candidate-matching solutions. I enjoy connecting different technologies to solve real-world problems."
+  },
+  {
+    "category": "Life Story",
+    "question": "What should we know about your life story in a few sentences?",
+    "answer": "I graduated with an engineering degree in Electronics and Communication in 2021 and spent time preparing for the UPSC civil services, which gave me immense discipline and structured thinking. When I transitioned into software and AI, I brought that same rigorous problem-solving approach. In October 2025, I joined Altrodav Technologies, and by April 2026 I stepped into a full-time AIML Developer role, building production AI systems like RAG assistants, evaluation pipelines, and mobile biometric verification."
+  },
+  {
+    "category": "Growth",
+    "question": "What are the top 3 areas you'd like to grow in?",
+    "answer": "First, I want to deepen my foundational ML and model evaluation skills to make more rigorous architecture and benchmark decisions. Second, I'm eager to gain broader production engineering experience around observability, high-throughput scaling, and latency optimization. And third, I'm continuously refining how I communicate complex technical trade-offs to cross-functional teams."
+  },
+  {
+    "category": "Misconception",
+    "question": "What misconception do your coworkers have about you?",
+    "answer": "Because I spend so much time deep in FastAPI code, vector databases, and model orchestration pipelines, colleagues sometimes assume I only care about backend plumbing. In reality, I think deeply about end-user experience, prompt UX, and ensuring what we build actually solves the human problem reliably."
+  },
+  {
+    "category": "Pushing Limits",
+    "question": "How do you push your boundaries and limits?",
+    "answer": "I push my boundaries by taking on problems where the path isn't obvious. When learning RAG or on-device biometrics, I didn't just read tutorials—I built working prototypes, pushed them until they broke, and measured the failure modes. Breaking a challenge into smaller verifiable chunks helps me stretch my limits without being paralyzed by uncertainty."
+  },
+  {
+    "category": "Introduction",
+    "question": "Tell me about yourself.",
+    "answer": "I'm Akshay Nayak, an AIML Developer at Altrodav Technologies in Bengaluru. I build practical, reliable AI solutions using Python, FastAPI, LLMs, and vector search. Some key projects I've worked on include the PlaceMux automated candidate evaluation system, a production-ready RAG assistant with semantic guardrails, and Android facial verification for MeetMux using TensorFlow Lite. I love turning emerging AI capabilities into dependable software."
+  },
+  {
+    "category": "Motivation",
+    "question": "Why are you interested in joining 100x?",
+    "answer": "I'm deeply energized by the pace of innovation at 100x and the commitment to building exceptional, high-impact products. I thrive in environments where engineers take extreme ownership, move rapidly, and focus on real customer value. Surrounding myself with builders who hold a high bar for engineering craft is exactly where I do my best work."
+  },
+  {
+    "category": "PlaceMux Evaluation",
+    "question": "What did you build for the PlaceMux AI Evaluation System?",
+    "answer": "I designed and developed an automated evaluation pipeline using FastAPI and Ollama LLMs. It assesses candidate submissions—including code, written answers, and project repositories—and generates structured feedback, scorecards, strengths, and improvement suggestions. It transformed what used to be a long manual review process into a 1 to 2 minute automated turnaround."
+  },
+  {
+    "category": "PlaceMux RAG",
+    "question": "How did you architect the PlaceMux Support & Knowledge Chat Assistant?",
+    "answer": "I architected a production-ready RAG pipeline using FastAPI, Sentence Transformers, and Groq-hosted LLMs. To make it dependable, I added conversational query rewriting, audience-based metadata filtering to isolate private data, dynamic prompt synthesis, and semantic similarity guardrails. I also introduced Hit@K and MRR metrics to objectively track retrieval quality."
+  },
+  {
+    "category": "MeetMux",
+    "question": "What was your contribution to MeetMux?",
+    "answer": "In MeetMux, I developed on-device facial verification and real-time face detection for Android using Kotlin, TensorFlow Lite, and ML Kit. We generated local facial embeddings to verify selfies against registered profiles and implemented liveness detection checks to guard against photo spoofing and fake account creation."
+  },
+  {
+    "category": "Talent Hunt",
+    "question": "Can you explain the AI Talent Hunt project?",
+    "answer": "AI Talent Hunt is an intelligent candidate discovery and semantic matching platform. We used Sentence Transformers to embed candidate profiles and FAISS for fast similarity lookups. I also connected external APIs like GitHub and Hugging Face to enrich developer profiles, and used Google Gemini to generate structured skill gap analyses and recommendations for recruiters."
+  },
+  {
+    "category": "Pressure",
+    "question": "How do you handle pressure and tight deadlines?",
+    "answer": "When timelines are tight, I first isolate the core deliverable from nice-to-have additions. Then I prioritize the riskiest technical dependency first so we uncover blockers early. I keep communication clear and frequent with teammates, and make sure we don't compromise essential sanity checks or test coverage in the rush."
+  },
+  {
+    "category": "Learning",
+    "question": "How do you approach learning an unfamiliar technology?",
+    "answer": "I start by understanding the problem the technology was created to solve and its architectural constraints. Next, I build a focused proof of concept to see how it behaves under realistic inputs. Breaking things deliberately in a prototype teaches me more about edge cases than just reading documentation."
+  },
+  {
+    "category": "Teamwork",
+    "question": "How do you approach teamwork and collaboration?",
+    "answer": "I believe great collaboration rests on shared context, clear API contracts, and active listening. I keep my interfaces well-documented, communicate blockers proactively, and stay receptive to feedback. I view code reviews as a two-way learning opportunity to uphold the overall quality of the product."
+  },
+  {
+    "category": "Career Goals",
+    "question": "What are your career goals over the next few years?",
+    "answer": "My goal is to grow into an end-to-end AI systems architect who can take ambiguous problems from initial conception to robust production deployment. I want to build deep expertise in agentic architectures, retrieval systems, and cost-efficient inference while strengthening distributed systems design."
+  },
+  {
+    "category": "Future",
+    "question": "Where do you see yourself in next 5 years?",
+    "answer": "In five years, I see myself leading technical direction and architecture for high-impact AI products, guiding system design decisions, and mentoring rising engineers. I aim to bridge cutting-edge ML research with robust, scalable production engineering, taking complex problems from prototype to reliable systems that solve real-world needs."
+  },
+  {
+    "category": "Future",
+    "question": "Where do you see yourself in five years?",
+    "answer": "In five years, I see myself leading technical direction and architecture for high-impact AI products, guiding system design decisions, and mentoring rising engineers. I aim to bridge cutting-edge ML research with robust, scalable production engineering, taking complex problems from prototype to reliable systems that solve real-world needs."
+  },
+  {
+    "category": "Hallucinations",
+    "question": "How do you reduce hallucinations in RAG systems?",
+    "answer": "I treat hallucination prevention as a multi-layered system rather than a single prompt. First, we ensure high retrieval precision using query rewriting and metadata filters. Second, we apply semantic distance thresholds so weak context is rejected. Third, we structure prompt instructions to strictly constrain answers to provided context, and evaluate outputs continuously with test sets."
+  },
+  {
+    "category": "Evaluation",
+    "question": "How did you evaluate retrieval quality in your RAG pipeline?",
+    "answer": "We used retrieval benchmarks like Hit@K and Mean Reciprocal Rank (MRR). Hit@K checks whether the correct supporting chunk appears in the top K retrieved results, while MRR evaluates how prominently the first relevant chunk is placed. This gave us a repeatable, data-driven way to compare chunking strategies and embedding models."
+  },
+  {
+    "category": "Failure",
+    "question": "What do you do when your first technical solution fails?",
+    "answer": "I avoid changing multiple variables at once. Instead, I isolate the failure by examining inputs, intermediate tensors or API outputs, and error logs. Once I identify which assumption broke, I create a minimal test case to validate the fix before integrating it back into the pipeline."
+  },
+  {
+    "category": "Disagreement",
+    "question": "How do you handle disagreements with teammates?",
+    "answer": "I decouple the idea from ego and bring the conversation back to our shared goals and measurable trade-offs—like latency, maintainability, and complexity. If we're split between two paths, I propose creating a lightweight benchmark or spike to let real data guide our decision."
+  },
+  {
+    "category": "Unknown",
+    "question": "What do you do if you don't know the answer to a question?",
+    "answer": "I'm completely honest about not knowing. I'll state what I do know, how I would approach researching the answer, and relate it to adjacent systems I've built. Transparency and a sound thought process are far more valuable than bluffing."
+  },
+  {
+    "category": "Speed vs Quality",
+    "question": "How do you balance development speed and code quality?",
+    "answer": "I focus on building the smallest functional slice of the feature first, but I never skip essential input validation, error handling, or security guardrails. Good modular abstractions let you move rapidly without leaving technical debt that slows you down next week."
+  },
+  {
+    "category": "Motivation",
+    "question": "What motivates you as an engineer?",
+    "answer": "Seeing real people use something I built to solve an actual problem is what energizes me most. Whether it's reducing an evaluation bottleneck from hours to two minutes or helping an Android user verify their identity seamlessly, building working software is deeply satisfying."
+  },
+  {
+    "category": "Tech Stack",
+    "question": "What is your favorite tech stack to build with?",
+    "answer": "For backend and AI services, Python and FastAPI with modern LLM orchestration, FAISS or Milvus for vector storage, and Groq or Gemini for inference is my go-to. On client side, I appreciate clean React with TypeScript or native Android with Kotlin and TensorFlow Lite for edge AI."
+  },
+  {
+    "category": "UPSC Transition",
+    "question": "How did preparing for the UPSC shape you as an engineer?",
+    "answer": "Preparing for UPSC was an intense exercise in discipline, analytical rigor, and synthesis of vast amounts of complex information. It taught me how to read dense material critically, spot underlying patterns, and remain persistent through demanding challenges—qualities that directly translate to mastering complex AI architectures."
+  }
+]

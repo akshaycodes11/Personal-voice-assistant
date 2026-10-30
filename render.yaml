@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: akshay-ai-voicebot
+    runtime: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-20b
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+
